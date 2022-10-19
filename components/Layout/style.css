@@ -1,0 +1,17 @@
+.MainGrid {
+    display: grid;
+    grid-template-areas: "firstColumn secondColumn";
+    grid-template-columns: 490px 320px;
+    grid-gap: 35px;
+    max-width: 45%;
+    margin: 70px auto;
+}
+
+.box {
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+
+

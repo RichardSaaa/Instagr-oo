@@ -1,0 +1,37 @@
+.container {
+    padding: 15px;
+    display: flex;
+    gap: 16px;
+}
+
+.story-elements {
+    cursor: pointer;
+}
+
+.user-elements div {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#c82d8e, #f99d4c);
+    
+}
+
+.user-elements span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.image-user-story {
+    border: 2px solid var(--background);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
